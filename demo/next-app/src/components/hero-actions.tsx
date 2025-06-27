@@ -1,4 +1,5 @@
-"use client";
+"use client"
+"use i18n";
 
 export function HeroActions() {
   return (

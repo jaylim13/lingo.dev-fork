@@ -1,6 +1,394 @@
 {
   "version": 0.1,
   "files": {
+    "app/client-component.tsx": {
+      "scopes": {
+        "1/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "a2ef7dbfffbc20bb96799b5873ca5daf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Interactive component"
+        },
+        "1/declaration/body/1/argument/3/1": {
+          "type": "element",
+          "hash": "f79c7d8f6a83fd2088a917b5163e4736",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "- Decrement"
+        },
+        "1/declaration/body/1/argument/3/3-title": {
+          "type": "attribute",
+          "hash": "9437f3ca922f2bb07c95571956e53a91",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is current counter value"
+        },
+        "1/declaration/body/1/argument/3/5": {
+          "type": "element",
+          "hash": "9a987e9b9fa869a8d8a87ba8dc46ffc9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+ Increment"
+        },
+        "1/declaration/body/1/argument/5/1/expression/right": {
+          "type": "element",
+          "hash": "3c918080cae5502084034c02b96571a3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:strong>Error:</element:strong> Counter too low!"
+        },
+        "1/declaration/body/1/argument/5/3/expression/right": {
+          "type": "element",
+          "hash": "4efddb408e6df5522197ff5a9d77b617",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:strong>Error:</element:strong> Counter too high!"
+        }
+      }
+    },
+    "app/layout.tsx": {
+      "scopes": {
+        "8/declaration/body/0/argument/1/0/1/1": {
+          "type": "element",
+          "hash": "0b86b9a0f097459d66870401cb15a380",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:LocaleSwitcher></element:LocaleSwitcher> Hi"
+        }
+      }
+    },
+    "app/other_page/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "104a3db3b671c04e167eafbe21e57881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Home"
+        },
+        "2/declaration/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "104a3db3b671c04e167eafbe21e57881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Home"
+        },
+        "2/declaration/body/0/argument/1/3": {
+          "type": "element",
+          "hash": "104a3db3b671c04e167eafbe21e57881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Home"
+        }
+      }
+    },
+    "app/page.tsx": {
+      "scopes": {
+        "2/declaration/body/0/argument/1/7": {
+          "type": "element",
+          "hash": "79acaa6cd481262bea4e743a422529d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Other"
+        },
+        "2/declaration/body/0/argument/1/7/1": {
+          "type": "element",
+          "hash": "64fde930443802ba1f532b5055f96072",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Other"
+        },
+        "2/declaration/body/0/argument/1/9": {
+          "type": "element",
+          "hash": "79acaa6cd481262bea4e743a422529d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Other"
+        }
+      }
+    },
+    "app/test/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "0772de36a384bdca12eb3720e9f70ff9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Navigate home"
+        },
+        "1/declaration/body/0/argument/1/3/1": {
+          "type": "element",
+          "hash": "a2d99d4939dfab9853064be89c2f4884",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Testing this thing now"
+        },
+        "1/declaration/body/0/argument/1/3/3": {
+          "type": "element",
+          "hash": "4c9d8da555c8dae6d50dd74d5ae496ea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Hello, this is a non-interactive test. Please do not try to interact with it."
+        }
+      }
+    },
+    "components/client.tsx": {
+      "scopes": {
+        "1/declaration/body/1/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "1/declaration/body/1/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        },
+        "2/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {data}"
+        },
+        "2/declaration/body/1/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "2/declaration/body/1/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        },
+        "3/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {result}"
+        },
+        "3/declaration/body/1/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "3/declaration/body/1/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        },
+        "4/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {result}"
+        },
+        "4/declaration/body/2/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {data}"
+        },
+        "4/declaration/body/2/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "4/declaration/body/2/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        },
+        "5/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {api_result}"
+        },
+        "5/declaration/body/2/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: {api_result}"
+        },
+        "5/declaration/body/2/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "5/declaration/body/2/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        }
+      }
+    },
+    "components/hero-actions.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "5a1286e11084538b67b35c7fbd06045c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get Started"
+        },
+        "0/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "d4cbae1d26b53d07939a02401b4943e4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Learn More"
+        },
+        "0/declaration/body/1/argument": {
+          "type": "element",
+          "hash": "23e89ddbac9cf2e276aef3daf7e25aeb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Info"
+        },
+        "0/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "23e89ddbac9cf2e276aef3daf7e25aeb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Info"
+        },
+        "0/declaration/body/1/argument/3": {
+          "type": "element",
+          "hash": "d4cbae1d26b53d07939a02401b4943e4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Learn More"
+        },
+        "1/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: <function:JSON.stringify/>"
+        },
+        "1/body/1/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "1/body/1/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        },
+        "1/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "775d4a7486979b15a018f8e4e1e84c93",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Link></element:Link> Get Started"
+        },
+        "1/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "d4cbae1d26b53d07939a02401b4943e4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Learn More"
+        },
+        "1/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "bdf30d512dadfeb80c46902b751aa998",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from server: <function:JSON.stringify/>"
+        },
+        "1/declaration/body/1/argument/3": {
+          "type": "element",
+          "hash": "c859a8dbe850183b1cfaab0b03707a9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Client-side counter: {count}"
+        },
+        "1/declaration/body/1/argument/5": {
+          "type": "element",
+          "hash": "c1b2e1cc80d777b29e61e51815d8db2d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Increment"
+        }
+      }
+    },
     "components/hero-subtitle.tsx": {
       "scopes": {
         "0/declaration/body/0/argument": {
@@ -10,6 +398,54 @@
           "skip": false,
           "overrides": {},
           "content": "Localize your React app in every language in minutes.<element:br></element:br> Scale to millions from day one."
+        }
+      }
+    },
+    "components/hero-title.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument": {
+          "type": "element",
+          "hash": "cd763a54ee2abb8e8ceaf83d79a25363",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lingo.dev"
+        }
+      }
+    },
+    "components/server.tsx": {
+      "scopes": {
+        "1/declaration/body/5/argument/1": {
+          "type": "element",
+          "hash": "7c2d8a46f03fd1373fcf526302d51d00",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is Server-Side Rendered"
+        },
+        "1/declaration/body/5/argument/3": {
+          "type": "element",
+          "hash": "16a11806887b76f236457b88ed0f7d31",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from the server: {data}"
+        },
+        "2/declaration/body/5/argument/1": {
+          "type": "element",
+          "hash": "7c2d8a46f03fd1373fcf526302d51d00",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is Server-Side Rendered"
+        },
+        "2/declaration/body/5/argument/3": {
+          "type": "element",
+          "hash": "16a11806887b76f236457b88ed0f7d31",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Data from the server: {data}"
         }
       }
     }

@@ -7,9 +7,12 @@ const nextConfig: NextConfig = {
 
 export default lingoCompiler.next({
   sourceLocale: "en",
-  targetLocales: ["es", "ja", "fr", "ru", "de", "zh", "ar", "ko"],
+  targetLocales: ["es", "zh"],
+  // models: "lingo.dev",
+  // useDirective: true,
   models: {
-    "*:*": "groq:mistral-saba-24b",
+    // "*:*": "groq:mistral-saba-24b",
+    "*:*": "google:gemini-2.0-flash",
   },
-  useDirective: true,
+  // useDirective: true,
 })(nextConfig);

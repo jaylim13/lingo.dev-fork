@@ -1,10 +1,9 @@
-/*
-"use client";
-"use server";
+// "use client";
+// "use server";
 
 "use i18n";
-*/
 
+import Link from "next/link";
 import { HeroTitle, HeroSubtitle, HeroActions } from "../components";
 
 export default function Home() {
@@ -14,6 +13,7 @@ export default function Home() {
         <HeroTitle />
         <HeroSubtitle />
         <HeroActions />
+        <Link href="/other_page">Other</Link>
       </div>
     </div>
   );

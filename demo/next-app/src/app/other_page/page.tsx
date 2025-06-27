@@ -7,7 +7,7 @@ export default function OtherPage() {
     <div className="min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto text-center">
         <ParentComponent/>
-        <Link href="../">Home</Link>
+        <Link href="../"><u>Home Page</u></Link>
       </div>
     </div>
   );

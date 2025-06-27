@@ -97,6 +97,14 @@ export default {
           },
           hash: "104a3db3b671c04e167eafbe21e57881",
         },
+        "2/declaration/body/0/argument/1/3/0": {
+          content: {
+            en: "Home Page",
+            es: "Página de inicio",
+            zh: "主页",
+          },
+          hash: "7e31d447ecb318f86f368d9e22b2a297",
+        },
       },
     },
     "app/page.tsx": {
@@ -108,6 +116,14 @@ export default {
             zh: "其他",
           },
           hash: "79acaa6cd481262bea4e743a422529d2",
+        },
+        "2/declaration/body/0/argument/1/7/0": {
+          content: {
+            en: "Pokemon Page",
+            es: "Página de Pokémon",
+            zh: "宝可梦页面",
+          },
+          hash: "c690e8360593ef80d6ede6ff9ede7e00",
         },
         "2/declaration/body/0/argument/1/7/1": {
           content: {

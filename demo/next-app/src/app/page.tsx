@@ -13,7 +13,7 @@ export default function Home() {
         <HeroTitle />
         <HeroSubtitle />
         <HeroActions />
-        <Link href="/other_page">Other</Link>
+        <Link href="/other_page"><u>Pokemon Page</u></Link>
       </div>
     </div>
   );
